@@ -1,0 +1,6 @@
+<p>pokemon-home works!</p>
+
+<div *ngIf="pokemonList.length>0" class="pokemonListContainer">
+    <app-pokemon-card *ngFor="let pokemon of pokemonList" [pokemon]="pokemon"></app-pokemon-card>
+    
+</div>
